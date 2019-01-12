@@ -1,0 +1,35 @@
+body {
+    color: #52FF6D;
+}
+
+div.table {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+    padding: 10px;
+    border: 4px solid #ffffff;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+table tr:nth-child(odd) {
+    background-color: #9EFFAE;
+}
+
+table tr:nth-child(even) {
+    background-color: #42CC57;
+}
+
+table td {
+    padding: 30px;
+}
+
+p:nth-child(2),
+p:nth-child(4) {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,63 @@
+body {
+    color: #52FF6D;
+}
+
+.desc p:nth-child(2) {
+    font-size: 40px;
+}
+
+input {
+    height: 26px;
+    border-radius: 16px;
+}
+
+select {
+    width: 400px;
+    height: 32px;
+    border-radius: 16px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+a {
+    height: 32px;
+    border-radius: 16px;
+    line-height: 32px;
+}
+
+input,
+select,
+a {
+    background-color: #52FF6D;
+    box-shadow: 0 0 6px 3px #9EFFAE;
+}
+
+input:hover,
+select:hover,
+a:hover {
+    box-shadow: 0 0 12px 3px #9EFFAE;
+    color: #52FF6D;
+}
+
+.other p {
+    margin: 100px 0 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+a.back {
+    margin-top: 100px;
+}
+
+#res {
+    transform: scale(0);
+}
+
+@keyframes animButton {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

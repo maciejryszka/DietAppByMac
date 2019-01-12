@@ -1,0 +1,57 @@
+body {
+    color: #FFFFFF;
+}
+
+
+.all {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+tr td:nth-child(1) {
+    font-size: 18px;
+    border: 1px solid #fff;
+}
+
+tr td.button input,
+.link {
+    text-align: center;
+}
+
+tr td.button,
+.link {
+    position: absolute;
+}
+
+
+tr td.button {
+    left: 55%;
+    bottom: -15%;
+    transform: translate(-140%, -50%);
+    border: none;
+}
+
+.link {
+    left: 50%;
+    bottom: -30%;
+    transform: translate(-85%, -50%);
+}
+
+input,
+select {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-radius: 9px;
+    color: #202020;
+}

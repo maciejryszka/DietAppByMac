@@ -1,0 +1,67 @@
+body {
+    max-height: 100vh;
+}
+
+p {
+    font-size: 60px;
+    text-align: center;
+    color: #1E90FF;
+    font-weight: bold;
+}
+
+.slogan {
+    text-transform: uppercase;
+}
+
+.describe {
+    font-size: 50px;
+}
+
+.title {
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.wrap>div {
+    cursor: pointer;
+}
+
+.wrap>div>.image>img {
+    transform: scale(0.5);
+    transition: .5s;
+}
+
+.wrap>div:hover>.image>img {
+    transform: scale(1);
+}
+
+.wrap>div>.title {
+    transform: translateY(220%);
+    transition: .5s;
+}
+
+.wrap>div:hover>.title {
+    transform: translateY(0);
+}
+
+.first {
+    color: #52FF6D;
+}
+
+.second {
+    color: #FFB565;
+}
+
+.third {
+    color: #7C54CC;
+}
+
+.wrap {
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}

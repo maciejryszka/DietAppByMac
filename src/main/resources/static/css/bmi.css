@@ -1,0 +1,24 @@
+body {
+    color: #FFB565;
+}
+
+input {
+    font-size: 26px;
+}
+
+.button {
+    height: 40px;
+    line-height: 20px;
+}
+
+input,
+a {
+    background-color: #FFB565;
+    box-shadow: 0 0 6px 3px #FFDAB1;
+}
+
+input:hover,
+a:hover {
+    box-shadow: 0 0 12px 3px #FFDAB1;
+    color: #FFB565;
+}

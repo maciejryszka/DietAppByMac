@@ -1,0 +1,26 @@
+body {
+    color: #7C54CC;
+}
+
+input {
+    font-size: 26px;
+}
+
+input,
+a {
+    background-color: #7C54CC;
+    box-shadow: 0 0 6px 3px #AC97D4;
+}
+
+input:hover,
+a:hover {
+    box-shadow: 0 0 12px 3px #AC97D4;
+    color: #7C54CC;
+}
+
+#man,
+#woman {
+    box-shadow: none;
+    width: 20px;
+    height: 20px;
+}

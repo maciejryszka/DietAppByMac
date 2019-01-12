@@ -1,0 +1,29 @@
+.button,
+tr td.button input,
+.link {
+    width: 220px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: #1873CC;
+    box-shadow: 0 0 6px 3px #6AB6FF;
+    color: #ffffff;
+    transition: .5s;
+}
+
+.button:hover,
+tr td.button input:hover,
+.link:hover {
+    background-color: #ffffff;
+    color: #1E90FF;
+    box-shadow: 0 0 12px 3px #6AB6FF;
+}
+
+.link {
+    line-height: 50px;
+    width: 400px;
+    text-decoration: none;
+}

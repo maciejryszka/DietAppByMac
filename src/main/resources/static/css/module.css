@@ -1,0 +1,55 @@
+p,
+.desc {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    display: block;
+    width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin: 20px auto;
+    font-size: 30px;
+}
+
+input {
+    width: 220px;
+    height: 32px;
+    border-radius: 19px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    display: block;
+    width: 180px;
+    height: 40px;
+    margin: 30px auto;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+input,
+select,
+a {
+    font-size: 22px;
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+input:hover,
+select:hover,
+a:hover {
+    background-color: #FFFFFF;
+}
